@@ -8,7 +8,7 @@ def _cleanScreen():
 
 new_Folder = "OrganizadorDeArquivos"
 
-path = "C:\\Users\\paulo.oliveira\\Desktop\\Python\\Teste"
+path = os.getcwb()
 
 _cleanScreen()
 
@@ -74,3 +74,4 @@ for files in os.listdir():
             print(f"File {files} moved to folder {extension} successfully!")
     
     
+
